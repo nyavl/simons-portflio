@@ -101,6 +101,28 @@ figure{
     display: none;
 }
 
+.container article{
+    padding: 25px;
+   border-style: solid;
+   background-color: #F23333;
+}
+.container div{
+    border-style: solid;
+    background-color: white;
+}
+.indhold{
+    border-style: solid;
+
+}
+
+.container h3{
+    padding-left: 10px;
+}
+.container p{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
 /* kontakt form */
 .c-form input, .c-form textarea {
 width: 100%;
@@ -125,6 +147,12 @@ margin-top: 10px;
 .footer-section h3{
     padding-right: 10px;
     padding-left: 10px;
+}
+.container article{
+    padding: 25px;
+   border-style: solid;
+   background-color: #F23333;
+   margin-bottom: 30px;
 }
 
 
