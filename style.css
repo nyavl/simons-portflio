@@ -1,0 +1,210 @@
+/*
+______________________
+
+FARVE SKEMA:
+
+Orange: fff2d8
+Rød: b93e44
+
+______________________
+
+*/
+
+/* Regler for alle skærme */
+
+/* Browser resets */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bangers', cursive;
+font-family: 'Bebas Neue', cursive;
+}
+
+img, video {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+figure{
+    margin:0;
+}
+.logo {
+    width: 100%;
+}
+/*Header of footer*/
+.page-header, .page-footer{
+    background-color: #F23333;
+    padding: 10px;
+}
+.page-footer {
+    color: #000000;
+}
+
+.main img{
+    border-style: solid;
+}
+.sidebar section{
+    border-style: solid;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.sidebar p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.body{
+    background-image: linear-gradient(#0071FF,#43E9FF,#0071FF,#43E9FF );
+  }
+/*Regler for menu*/
+.menu{
+    background-color: #F23333;
+    margin-bottom: 30px;
+}
+.menu ul{
+    display: none;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+.menu-item{
+    font-family: 'Ranchers', cursive;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+.max{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    padding:10px;
+}
+
+/* galleri */
+.frame{
+    display: none;
+}
+
+/* kontakt form */
+.c-form input, .c-form textarea {
+width: 100%;
+display: block;
+margin-top: 10px;
+}
+.c-form button {
+    margin-bottom: 10px;
+    
+}
+.footer-section{
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.footer-section p{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.footer-section h3{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/* Regler for desktop skærme */
+
+@media screen and (min-width : 800px) {
+
+    .flex-desktop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .page-header .flex-desktop{
+        align-items: center;
+    }
+
+    /*Menu halløj*/
+    .menu-btn {
+        display: none;
+    }
+    .menu ul{
+        display: flex !important;
+        justify-content: flex-end;
+        padding: 0;
+    }
+    .menu-item {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 8px;
+    }
+
+    .content{
+        gap: 25px;
+        padding:0;
+    }
+
+    .as-cv img{
+        border-style: solid;
+    }
+
+    /* galleri regler */
+    .container {
+        width: 5000px;
+        margin: 0 auto;
+      }
+
+      .container article{
+         padding: 25px;
+        border-style: solid;
+        background-color: #F23333;
+    }
+      .container div{
+          border-style: solid;
+          background-color: white;
+      }
+      .indhold{
+          border-style: solid;
+
+      }
+      
+      .container h3{
+          padding-left: 10px;
+      }
+      .container p{
+          padding-left: 30px;
+          padding-right: 20px;
+      }
+      
+      article {
+        display: flex;
+        margin-bottom: 2em;
+      }
+      
+      .indhold{
+        margin-right: 2em;
+        width: 65%;
+      }
+      
+}
