@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnes portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <header class="page-header">
+            <!-- Logo og Søgefelt -->
+            <div class="max flex-desktop">
+                <a href="index.html" class="logo-block">
+                    <img src="img/Side hoved til portfolio hjemmesiden png.png" alt="" class="logo">
+                </a>
+                <form action="" class="search-form">
+                    <input type="text" class="search-field">
+                    <input type="image" src="img/search.png" alt="" class="search-btn">
+                </form>
+            </div>
+            <!-- Slut på logo og Søgefelt -->
+        </header>
+
+        <!-- Navigation -->
+        <nav class="menu">
+
+            <div class="max">
+                <button id="menu-btn" class="menu-btn">
+                    Menu
+                </button>
+                <ul id="menu-items" style="display: none;">
+                    <li>
+                        <a href="index.html" class="menu-item">Forside</a>
+                    </li>
+                    <li>
+                        <a href="galleri.html" class="menu-item">Galleri</a>
+                    </li>
+                    <li>
+                        <a href="Ansøgning-cv.html" class="menu-item">Ansøgning/cv</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- Slut på navigation -->
+
+        <div class="max flex-desktop two-cols content">
+            <!-- MAIN -->
+            <main class="main">
+
+                <section>
+                    <h1>udfyld formularen</h1>
+                    <form action="tak.html" class="c-form">
+                        <input type="text" placeholder="Navn og efternavn" required>
+                        <br>
+                        <input type="text" placeholder="tilefonnummer">
+                        <br>
+                        <input type="email" placeholder="E-mail" required>
+                        <br>
+                        <textarea cols="30" rows="10" placeholder="skriv en besked"></textarea>
+                        <br>
+                        <button>send</button>
+                    </form>
+                </section>
+                
+            </main>
+            <!--slut på main -->
+
+            <!-- ASIDE -->
+            <aside class="sidebar">
+                <section>
+                    <h2>CSS FLEXBOX</h2>
+                    <p>
+                        Denne svedige side er bygget op med flexbox modellen. Så slipper man for at bruge floats/ clear,
+                        inline-block, display:table eller andre nederen hacks.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>BROWSER SUPPORT:</h2>
+                    <p>
+                        Flexbox modellen er efterhånden rigtig godt understøttet i alle moderne browsere.
+                    </p>
+                </section>
+                <section>
+                    <h2>HVORDAN GØR MAN, ARNE?</h2>
+                    <p>
+                        Jo... For at få sine elementer til at tilpasse sig flexbox modellen, skal man altså lige gide
+                        give deres umidelbare forældre-element display-proprtien flex.
+                    </p>
+                </section>
+            </aside>
+            <!-- slut på sidebar -->
+        </div>
+        <!-- slut på "content" -->
+        <footer class="page-footer">
+
+            <div class="max flex-desktop">
+                <section class="footer-section">
+                    <h3>Simons Portfolio</h3>
+                    <p>Elmelunden 17</p>
+                    <p>4270 Høng</p>
+                </section>
+
+                <section class="footer-section">
+                    <h3>SoMe</h3>
+                    <p>Instagram <a href="https://www.instagram.com/simons.drawing.and.art/">Simon.drawing.and.art</a></p>
+                    <p>Facebook <a href="https://www.facebook.com/profile.php?id=100017316499383">Simon Pedersen</a></p>
+                </section>
+
+                <section class="footer-section">
+                    <h3>Kontakt mig</h3>
+                    <p>E-mail: <a href="mailto:simonnyavl@gmail.com">simonnyavl@gmail.com</a> </p>
+                    <p>Telefon: <a href="tel:21974270">21974270</a> </p>
+                </section>
+            </div>
+
+
+        </footer>
+    </div>
+    <!-- slut på page -->
+    <script src="menu.js"></script>
+</body>
+
+</html>
