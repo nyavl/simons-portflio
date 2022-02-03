@@ -70,6 +70,7 @@ figure{
 .menu{
     background-color: #F23333;
     margin-bottom: 30px;
+    padding-left: 5px;
 }
 .menu ul{
     display: none;
