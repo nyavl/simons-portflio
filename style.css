@@ -199,8 +199,13 @@ margin-top: 10px;
         padding:0;
     }
 
+.as-cv{
+    margin-bottom: 25px;
+}
+
     .as-cv img{
         border-style: solid;
+        min-height: 100%;
     }
 
     /* galleri regler */
@@ -241,4 +246,7 @@ margin-top: 10px;
         width: 65%;
       }
       
+      .cv-atag{
+          min-width: 10%;
+      }
 }
