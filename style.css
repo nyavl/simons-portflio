@@ -45,8 +45,16 @@ figure{
     background-color: #F23333;
     padding: 10px;
 }
+.footer-first{
+    position: fixed;
+    margin-top: 10%;
+}
 .page-footer {
     color: #000000;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .main img{
@@ -97,6 +105,7 @@ figure{
 .content{
     padding:10px;
 }
+
 
 /* galleri */
 .frame{
